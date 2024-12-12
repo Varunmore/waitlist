@@ -1,0 +1,199 @@
+/* Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, #0d0c1d, #3a3a3a);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-section::before {
+    content: '';
+    background: url('/public/hero-background1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 40px;
+  }
+  
+  .hero-buttons .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #ff7b00;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e03e00;
+  }
+  
+  /* Waiting List Form */
+  .waitlist-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .waitlist-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .waitlist-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .waitlist-form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  .waitlist-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .waitlist-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff7b00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .waitlist-form button:hover {
+    background-color: #e03e00;
+  }
+  
+  .success-message, .error-message {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  .cloud-gaming-section {
+    padding: 50px 20px;
+    background: #282828;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .cloud-gaming-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ff7b00;
+  }
+  
+  .cloud-gaming-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .cloud-gaming-content p {
+    margin-bottom: 15px;
+  }
+  
+
+/* About and Contact Sections */
+.about-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff; /* Slightly darker color for better readability */
+    background: #282828; /* Light background for contrast */
+    border-top: 1px solid #000000; /* Subtle separator */
+  }
+  
+  .about-section h2, .contact-section h2 {
+    font-size: 2.5rem; /* Slightly larger headings */
+    margin-bottom: 20px;
+    color: #ff7b00; /* Highlight color for headings */
+    letter-spacing: 1px; /* Adds modern styling */
+  }
+  
+  .about-section p, .contact-section p {
+    font-size: 1.2rem; /* Slightly larger for readability */
+    line-height: 1.8; /* Improved line spacing for better clarity */
+    max-width: 700px; /* Slightly wider for better layout */
+    margin: 0 auto;
+    color: #ffffff; /* Softer text color for better contrast */
+  }
+  
+  .contact-section a {
+    color: #ff7b00; /* Matches the heading color */
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent; /* Adds subtle emphasis */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transitions */
+  }
+  
+  .contact-section a:hover {
+    color: #e03e00; /* Darker hover color */
+    border-bottom: 1px solid #e03e00; /* Visible underline effect on hover */
+  }
+  
+  /* Add subtle spacing between the two sections */
+
+  
+  
+  
+  
